@@ -1,0 +1,105 @@
+body{
+    background:;
+   /* background-color: #E5E5E5;*/
+}
+header{
+    margin: 3%;
+}
+.sectionE{
+    display: inline-block;
+	vertical-align: top;
+    width: 44%;
+   height: 620px;
+    background:;
+    margin: 4% 5% 1% 12%;
+}
+.input-texto{
+    display: inline-block;
+	vertical-align: top;
+    background: ;
+    width: 93%;
+    height: 500px;
+    border: none;
+    outline: none;
+    font-size: 32px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+    padding: 6% 0 0 8%;
+}
+.encriptar{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+	height: 54px;
+    font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin:8% 0 0 6%;
+	color: white;
+	background: #0A3871;
+	border-color: #0A3871;
+	border-radius: 16px;
+    border-width: 1px;
+	cursor: pointer;
+}
+.desencriptar{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+	height: 54px;
+    font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin:8% 0 0 12%;
+    color: #0A3871;
+	border-color: #0A3871;
+	border-radius: 16px;
+    border-width: 1px;
+    cursor: pointer;
+}
+.sectionC{
+    display: inline-block;
+	vertical-align: top;
+    width: 18%;
+    background:;
+    margin: 2% 0 12% 8%;
+    
+}
+
+.mensaje{
+    display: inline-block;
+	vertical-align: top;
+	background: #F3F5FC;
+	width: 94%;
+	height: 520px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	color: #0A3871;
+	margin: 0 0 12% 0;
+    padding: 10% 3% 0 8%;
+	/*box-shadow: 10px 10px  30px 20px #fff;*/
+	border-radius: 16px;
+	border: none;
+    outline: none;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+}
+.Copiar
+{
+    display: inline-block;
+      vertical-align: top;
+      width: 60%;
+      height: 54px;
+      font-size: 18px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      margin:18% 0 2% 26%;
+      color: #0A3871;
+      border-color: #0A3871;
+      border-radius: 16px;
+      border-width: 1px;
+      cursor: pointer;
+  }

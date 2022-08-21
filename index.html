@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Encriptador Alura</title>
+    <!--live coding numero: 2-->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo.png" alt="logo alura con la incial de letra a">
+    </header>
+    <main> 
+        <section class="sectionE">
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Ingresa tu texto aqui solo minusculas"></textarea>
+
+        <div class="botones">
+            <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+
+        </div>
+        </section>
+
+        <section class="sectionC">
+           <textarea class="mensaje" cols="18" rows="8" placeholder="Ningun texto encontrado"></textarea>
+           <button class="Copiar" onclick="copiar()">COPIAR</button>
+        </section>
+
+    </main>
+    <script src='script.js'></script>
+</body>
+</html>
