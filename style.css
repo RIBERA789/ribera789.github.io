@@ -3,7 +3,7 @@ body{
    /* background-color: #E5E5E5;*/
 }
 header{
-    margin: 3%;
+    margin: 2%;
 }
 .sectionE{
     display: inline-block;
@@ -11,7 +11,7 @@ header{
     width: 44%;
    height: 620px;
     background:;
-    margin: 4% 5% 1% 12%;
+    margin: 2% 5% 0 12%;
 }
 .input-texto{
     display: inline-block;
@@ -62,7 +62,7 @@ header{
 	vertical-align: top;
     width: 20%;
     background:;
-    margin: 2% 0 12% 8%;
+    margin: 2% 0 8% 8%;
     
 }
 
