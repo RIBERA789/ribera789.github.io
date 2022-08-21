@@ -9,7 +9,7 @@ header{
     display: inline-block;
 	vertical-align: top;
     width: 44%;
-   height: 580px;
+   height: 540px;
     background:;
     margin: 2% 5% 0 12%;
 }
@@ -71,7 +71,7 @@ header{
 	vertical-align: top;
 	background: #F3F5FC;
 	width: 96%;
-	height: 500px;
+	/*height: 500px;*/
 	font-size: 20px;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
@@ -103,3 +103,28 @@ header{
       border-width: 1px;
       cursor: pointer;
   }
+
+
+  @media screen and (max-width:768px){
+    .sectionE{
+        width: 38%;
+    }
+    .input-texto{
+        width: 88%;
+    }
+    .encriptar{
+        width: 20%;
+    }
+    .desencriptar{
+        width: 20%;
+    }
+    .sectionC{
+        width:18%;
+    }
+    .mensaje{
+        width:90%;
+    }
+    .Copiar{
+        width: 60%;
+    }
+}
