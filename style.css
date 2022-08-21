@@ -60,7 +60,7 @@ header{
 .sectionC{
     display: inline-block;
 	vertical-align: top;
-    width: 18%;
+    width: 20%;
     background:;
     margin: 2% 0 12% 8%;
     
@@ -70,7 +70,7 @@ header{
     display: inline-block;
 	vertical-align: top;
 	background: #F3F5FC;
-	width: 98%;
+	width: 96%;
 	height: 520px;
 	font-size: 20px;
 	font-weight: bold;
