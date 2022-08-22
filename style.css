@@ -3,15 +3,15 @@ body{
    /* background-color: #E5E5E5;*/
 }
 header{
-    margin: 2%;
+    margin: 1%;
 }
 .sectionE{
     display: inline-block;
 	vertical-align: top;
     width: 44%;
-   height: 540px;
+   height: 620px;
     background:;
-    margin: 2% 5% 0 12%;
+    margin: 2% 5% 1% 12%;
 }
 .input-texto{
     display: inline-block;
@@ -60,9 +60,9 @@ header{
 .sectionC{
     display: inline-block;
 	vertical-align: top;
-    width: 20%;
+    width: 18%;
     background:;
-    margin: 2% 0 8% 8%;
+    margin: 0 0 6% 8%;
     
 }
 
@@ -70,8 +70,8 @@ header{
     display: inline-block;
 	vertical-align: top;
 	background: #F3F5FC;
-	width: 96%;
-	/*height: 500px;*/
+	width: 94%;
+	height: 520px;
 	font-size: 20px;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
@@ -87,8 +87,7 @@ header{
     background-position: 18px;
     background-size: 300px;
 }
-.Copiar
-{
+.Copiar{
     display: inline-block;
       vertical-align: top;
       width: 60%;
@@ -103,28 +102,53 @@ header{
       border-width: 1px;
       cursor: pointer;
   }
-
-
-  @media screen and (max-width:1366px){
+@media screen and (max-width:1366px){
+    body{
+        max-width: 100%;
+    }
+    header{
+        margin: 1%;
+    }
     .sectionE{
-        width: 38%;
+        max-width: 48%;
+        max-height:440px;
+        margin: 0 4% 2% 8%;
     }
     .input-texto{
-        width: 88%;
+        background:;
+        max-width: 96%;
+        height: 380px;
+        margin: 0 0 3% 6%;
+        border-radius: 10px;
     }
     .encriptar{
-        width: 20%;
+        width: 30%;
+        height: 50px;
+        margin: 8% 8% 1% 16%;
     }
     .desencriptar{
-        width: 20%;
+        width: 30%;
+        height: 50px;
+        margin: 8% 0 1% 6%;
     }
     .sectionC{
-        width:18%;
+        background:;
+        width: 22%;
+        max-height: 400px;
+        margin: 0 0 0 18%;
     }
     .mensaje{
-        width:90%;
+        width: 100%;
+        height: 440px;
+        background-image: url("imagenes/Muñeco.png");
+        margin: 0 0 0 0;
+        padding: 8% 0 0 1%;
     }
     .Copiar{
-        width: 60%;
+        display: inline-block;
+          vertical-align: top;
+          width: 60%;
+          height: 50px;
+          margin: 6% 0 0 20%;
     }
 }
